@@ -8,11 +8,11 @@ Method | HTTP request | Description
 
 
 # **pushNotifications**
-> pushNotifications($content_type, $body)
+> \Telstra_EventDetection\Model\PushNotificationObj pushNotifications($content_type, $body)
 
 Push event notifications
 
-Push event notifications
+Push event notifications to the notification URL configured during the MSISDN registration process
 
 ### Example
 ```php
@@ -28,7 +28,8 @@ $content_type = "content_type_example"; // string | application/json
 $body = new \Telstra_EventDetection\Model\NotificationPayload(); // \Telstra_EventDetection\Model\NotificationPayload | Application Id, MSISDN, Event Id and Event Date
 
 try {
-    $apiInstance->pushNotifications($content_type, $body);
+    $result = $apiInstance->pushNotifications($content_type, $body);
+    print_r($result);
 } catch (Exception $e) {
     echo 'Exception when calling PushNotificationsApi->pushNotifications: ', $e->getMessage(), PHP_EOL;
 }
@@ -44,7 +45,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-void (empty response body)
+[**\Telstra_EventDetection\Model\PushNotificationObj**](../Model/PushNotificationObj.md)
 
 ### Authorization
 

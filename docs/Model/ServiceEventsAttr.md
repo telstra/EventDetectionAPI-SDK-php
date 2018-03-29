@@ -1,10 +1,10 @@
-# GetEventResponse
+# ServiceEventsAttr
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**event_type** | **string** | Name of the event | 
-**msisdns** | [**\Telstra_EventDetection\Model\Eventsattr[]**](Eventsattr.md) | Array containing the object with evnt attributes | 
+**event_id** | **string** | MSISDN | 
+**event_date** | **string** | Array of subscribed events | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

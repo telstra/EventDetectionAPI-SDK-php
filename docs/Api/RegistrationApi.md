@@ -82,7 +82,7 @@ $apiInstance = new Telstra_EventDetection\Api\RegistrationApi(
     new GuzzleHttp\Client(),
     $config
 );
-$event_type = "event_type_example"; // string | Event Type. Value can be simswap
+$event_type = "event_type_example"; // string | Event Type
 $body = new \Telstra_EventDetection\Model\UnregisterRequestObj(); // \Telstra_EventDetection\Model\UnregisterRequestObj | List of subscribed phone numbers and notification URL (optional)
 
 try {
@@ -98,7 +98,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **event_type** | **string**| Event Type. Value can be simswap |
+ **event_type** | **string**| Event Type |
  **body** | [**\Telstra_EventDetection\Model\UnregisterRequestObj**](../Model/UnregisterRequestObj.md)| List of subscribed phone numbers and notification URL (optional) |
 
 ### Return type

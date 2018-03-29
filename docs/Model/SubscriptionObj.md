@@ -3,7 +3,7 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**phone_numbers** | **string[]** | List of Phone numbers | 
+**msisdns** | **string[]** | List of Phone numbers | 
 **notification_url** | **string** | Notification URL | [optional] 
 **event_type** | **string** | Event Type | 
 

@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 Poll events
 
-Poll events for a given set of mobile numbers
+Poll events for a given set of MSISDNs
 
 ### Example
 ```php
@@ -29,7 +29,7 @@ $apiInstance = new Telstra_EventDetection\Api\LongPollApi(
     $config
 );
 $event_type = "event_type_example"; // string | Event Type
-$body = new \Telstra_EventDetection\Model\PollingObj(); // \Telstra_EventDetection\Model\PollingObj | List of phone numbers on which polling has to be performed
+$body = new \Telstra_EventDetection\Model\PollingObj(); // \Telstra_EventDetection\Model\PollingObj | List of MSISDNs to pull the events
 
 try {
     $result = $apiInstance->longpoll($event_type, $body);
@@ -45,7 +45,7 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **event_type** | **string**| Event Type |
- **body** | [**\Telstra_EventDetection\Model\PollingObj**](../Model/PollingObj.md)| List of phone numbers on which polling has to be performed |
+ **body** | [**\Telstra_EventDetection\Model\PollingObj**](../Model/PollingObj.md)| List of MSISDNs to pull the events |
 
 ### Return type
 

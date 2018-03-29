@@ -3,8 +3,9 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**phone_number** | **string** | Phone number | [optional] 
-**message** | **string** | Array of events | [optional] 
+**msisdn** | **string** | msisdn | [optional] 
+**description** | **string** | description about the registration status | [optional] 
+**carrier_name** | **string** | carrier name for the msisdn | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
