@@ -1,4 +1,3 @@
-# Messaging SDK
 
 - API version: 1.0.0
 - Package version: 1.0.0
@@ -21,7 +20,7 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
     }
   ],
   "require": {
-    "Telstra/Telstra_EventDetection": "*@master"
+    "Telstra/Telstra_EventDetection": "*"
   }
 }
 ```
