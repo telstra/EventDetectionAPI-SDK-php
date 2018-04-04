@@ -117,8 +117,5 @@ Class | Method | HTTP request | Description
  - **v1_eventdetection_simswap**: v1_eventdetection_simswap
 
 
-## Author
-
-
 
 
